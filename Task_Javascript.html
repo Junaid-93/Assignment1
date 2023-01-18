@@ -10,9 +10,9 @@
             <h2>Registration Form</h2>
             <form id="myForm" name="myForm">
                 
-                <input type="text" class="form-control" name="Name" placeholder="Your Name">
+                <input id = "nameid" type="text" class="form-control" name="Name" placeholder="Your Name">
                 <p id="pname"></p>
-                <input type="email" class="form-control" name="Email" placeholder="Your Email">
+                <input id = "emailid" type="email" class="form-control" name="Email" placeholder="Your Email">
                 <p id="pemail"></p>
                 <input type="text" class="form-control" name="Subject" placeholder="Subject"><br><br>
                                          
@@ -30,19 +30,16 @@
         <!--JAVASCRIPT-->
         <script>
             function abc(){
-
-            
                 // Name section
                 var x = document.forms["myForm"]["Name"].value;
                 let x1;
-                if (x==="") {
+                if ( x === "" ) {
                     x1 = "Please, type your name";
-                }
-                else if (typeof x !=="string") {
-                    x1 = "Please, enter your correct name !";
+                    document.getElementById("nameid").style.border = "2px solid red";
                 }
                 else {
                     x1 = "";
+                    document.getElementById("nameid").style.border = "none";
                 }
             
                 document.getElementById("pname").innerHTML = x1;
@@ -51,16 +48,21 @@
                 // Email section
                 var y = document.forms["myForm"]["Email"].value;
                 let y1;
-                if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(y))) {
+                if  ( y === "" ) {
+                    y1 = "Please, enter your email !";
+                    document.getElementById("emailid").style.border = "2px solid red";
+                }
+                else if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(y))) {
                     y1 = "You have entered an invalid email address!";
+                    document.getElementById("emailid").style.border = "2px solid red";
                 }
                 else {
                     y1 = "";
+                    document.getElementById("emailid").style.border = "none";
                 }
                 
                 document.getElementById("pemail").innerHTML = y1;
             }
-            // abc();
         </script>
     </body>
 </html>        
