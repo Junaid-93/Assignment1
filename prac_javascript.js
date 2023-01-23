@@ -133,3 +133,40 @@
 // // Chechking
 // console.log(studentsData.hasOwnProperty("Country"))
 // console.log(studentsData.hasOwnProperty("city"))
+
+
+// var arr1 = ["Asad","Babar",3,4,5]
+// // console.log(arr1[0]);
+// // console.log(arr1[1]);
+// // console.log(arr1[3]);
+// // arr1[3]="Saqib"
+// // console.log(arr1[3]);
+// // arr1.push("Akber")
+// // console.log(arr1[5]);
+// // console.log(arr1);
+// // console.log(arr1.pop());
+// // console.log(arr1);
+// // console.log(arr1.pop());
+// // console.log(arr1);
+// // var x = arr1.slice(2,4))     // new array will be created having 2 to 3 elements from arr1. 
+// // console.log(arr1.splice(2,1,"Ali","Babar"))  // splice parameters :- 1-from index, 2-remove(no.of passed index), 3-items to be added in the list
+// in above code:- from position 2, remove 1 item, and add "Ali","Babar" in the array.
+// var arr2 = [6,7,8]
+// // var arr3 = arr1.concat(arr2);
+// // console.log(arr3);
+// // console.log(arr3[3]);
+// // console.log(arr3.at(3));
+// // // console.log(arr3.at(-1)); 
+// var arr3;
+// arr3 = [1,2].concat([3,4]);
+// console.log(arr3);
+// console.log(arr3.length);
+
+// var y = [2,3];
+
+// for (var i = 0; i<=arr3.length-1; i++) {    // mandatory to use comparision operators in loops
+//     y.push(i);
+// }
+// console.log(y);
+
+// isNaN() , isInteger()
