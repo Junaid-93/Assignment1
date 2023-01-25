@@ -20,8 +20,6 @@
 
 //  TASK - 3
 
-
-
 // var library = [ 
 //   {
 //       author: 'Bill Gates',
@@ -46,7 +44,9 @@
 //     // console.log(library[x].readingStatus);    
 // }
 
+
 // Task - 4
+
 // accountId , accountTitle, balance, emailID
 // class BankAccount {
 //   accountId;
@@ -104,22 +104,6 @@
 // console.log(junaid.balance);
 // junaid.depositAmount(200);
 // junaid.withdrawAmount(50);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //  TASK - 2
