@@ -1,5 +1,5 @@
 
-// Matrices
+// // Matrices
 var matrix1rows = prompt("Enter matrix 1 rows")
 var matrix1col = prompt("Enter matrix 1 columns")
 var matrix2rows = prompt("Enter matrix 2 rows")
@@ -24,7 +24,7 @@ for (i=1 ; i<=m1r ; i++) {
     var arr_m1r1 = m1r1.split(" ");
     m1.push(arr_m1r1)
 }
-console.log(m1);
+// console.log(m1);
 
 
 var m2 = []
@@ -34,12 +34,12 @@ for (i=1 ; i<=m2c ; i++) {
     m2.push(arr_m2c2)
 }
 
-console.log(m2);
+// console.log(m2);
 
-var Final_Array = []
+var final_Matrix = []
 
 for (s=0 ; s<= m1.length-1 ; s++) {
-    var R_Array_Rows = []
+    var final_Matrix_Rows = []
      for (t=0; t <= m1.length-1; t++) {
             var Rrows = 0
             for (i=0; i <= m1[s].length-1; i++) {
@@ -47,11 +47,11 @@ for (s=0 ; s<= m1.length-1 ; s++) {
                 Rrows += (m1[s][i]*m2[t][i]);
             
             }
-            R_Array_Rows.push(Rrows);    
+            final_Matrix_Rows.push(Rrows);    
         }
-    Final_Array.push(R_Array_Rows);
+        final_Matrix.push(final_Matrix_Rows);
     
 
 }
-console.log(Final_Array);
-document.write(Final_Array)
+console.log(final_Matrix);
+document.write(final_Matrix)
