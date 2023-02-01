@@ -1,15 +1,18 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import MyFunc from './MyFunc'
-import Count from './prac'
+import CoursesList from './ListOfCourses'
+import Count from './practice'
+import Count2 from './Task-1'
+import ToDoList from './Task-2'
+import Abc from './task2 by bilal'
 
 function App() {
    const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <div>
+      {/* <div>
          <a href="https://vitejs.dev" target="_blank">
            <img src="/vite.svg" className="logo" alt="Vite logo" />
          </a>
@@ -28,9 +31,12 @@ function App() {
        </div>
        <p className="read-the-docs">
          Click on the Vite and React logos to learn more
-       </p>
-       <MyFunc />
-       <Count />
+       </p> */}
+       {/* <CoursesList />
+       <Count /> */}
+       {/* <Count2 /> */}
+        <ToDoList />
+        {/* <Abc /> */}
     </div>
   )
 }
