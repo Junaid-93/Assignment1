@@ -1,0 +1,3 @@
+In JSX         JS
+className  >>  class
+htmlFor    >>  for

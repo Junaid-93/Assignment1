@@ -6,12 +6,14 @@ import Count from './practice'
 import Count2 from './Task-1'
 import ToDoList from './Task-2'
 import Abc from './task2 by bilal'
+import SearchParams from './prac'
+import PracArray from './prac'
 
 function App() {
-   const [count, setCount] = useState(0)
+  //  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div>
       {/* <div>
          <a href="https://vitejs.dev" target="_blank">
            <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -32,10 +34,11 @@ function App() {
        <p className="read-the-docs">
          Click on the Vite and React logos to learn more
        </p> */}
-       {/* <CoursesList />
-       <Count /> */}
-       {/* <Count2 /> */}
-        <ToDoList />
+       {/* <CoursesList /> */}
+       {/* <Count /> */}
+       {/* {/* <Count2 />  */}
+       <ToDoList />
+        {/* <PracArray /> */}
         {/* <Abc /> */}
     </div>
   )

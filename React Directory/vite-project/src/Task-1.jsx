@@ -5,6 +5,7 @@ function Count2 (){
 const [count, setCount] = useState(5);
 
 function abc(){
+    
     setCount((count) => count+3)
 }
 return (
