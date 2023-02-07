@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react"
 
 const PracArray = () => {
   const [list, setList] = useState([1,2,3])
