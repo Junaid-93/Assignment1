@@ -174,8 +174,8 @@
 // let x = [1,2,3,4,5]
 // let x2 = x.map(x => x*3)
 // console.log(x2);
-const pattern = prompt('Enter a pattern');
+// const pattern = prompt('Enter a pattern');
 // let user_input = prompt("Type your name !");
-if (pattern === "Junaid") {
-    console.log("Your name is "+ pattern);
-}
+// if (pattern === "Junaid") {
+//     console.log("Your name is "+ pattern);
+// }
