@@ -6,7 +6,7 @@ import Junaid from './Junaid'
 import Junaid2 from './junaid2'
 import Data_Fetch from './Fetch'
 import Example from './Example'
-import ToDoList from './ToDoList'
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -38,7 +38,7 @@ function App() {
       {/* <Junaid2 /> */}
       {/* <Data_Fetch /> */}
       {/* <Example /> */}
-      <ToDoList />
+     
     </div>
   )
 }
